@@ -1,6 +1,7 @@
 server {
 	listen 80;
-
+	listen [::]:80;
+	
 	root /home/aj/www/hw01.swoogity.com;
 	index index.html;
 	server_name hw01.swoogity.com;

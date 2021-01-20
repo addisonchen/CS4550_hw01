@@ -1,5 +1,6 @@
 server {
 	listen 80;
+	listen [::]:80;
 
 	root /home/aj/www/swoogity.com;
 	index index.html;
